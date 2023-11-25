@@ -1,0 +1,35 @@
+
+.counter ul {
+    display: flex;
+    justify-content: center;
+}
+
+.counter ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.counter li span {
+    display: block;
+    font-size: 6rem;
+    color: #da8eea;
+}
+
+.counter li.separator{
+    margin: 0 10px;
+    font-size: 6rem;
+    line-height: 1;
+    color: #da8eea;
+}
+
+.counter li:first-of-type {
+    margin-right: 5rem;
+}
+.sale {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #da8eea;
+}
